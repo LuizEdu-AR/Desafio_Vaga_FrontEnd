@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="pausar" transform="translate(-1052 -480)">
+    <rect id="Retângulo_15" data-name="Retângulo 15" width="26" height="26" rx="13" transform="translate(1052 480)" fill="#1d1d1d"/>
+    <path id="pause" d="M347.4,17.091a1.094,1.094,0,0,1-1.121-1.065V7.756a1.122,1.122,0,0,1,2.241,0v8.27a1.094,1.094,0,0,1-1.121,1.065m-6.425,0a1.094,1.094,0,0,1-1.121-1.065V7.756a1.122,1.122,0,0,1,2.241,0v8.27a1.094,1.094,0,0,1-1.121,1.065" transform="translate(720.809 481.109)" fill="#fff"/>
+  </g>
+</svg>

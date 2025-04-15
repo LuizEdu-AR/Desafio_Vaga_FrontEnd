@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="topo" transform="translate(-1395 -390)">
+    <rect id="Retângulo_81" data-name="Retângulo 81" width="60" height="60" rx="30" transform="translate(1395 390)" fill="#1c1c1c"/>
+    <path id="up-arrow-svgrepo-com" d="M12,3a1,1,0,0,1,.707.293l7,7a1,1,0,1,1-1.414,1.414L13,6.414V20a1,1,0,0,1-2,0V6.414L5.707,11.707a1,1,0,0,1-1.414-1.414l7-7A1,1,0,0,1,12,3Z" transform="translate(1413 408)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
