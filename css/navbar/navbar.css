@@ -75,7 +75,7 @@
 }
 
 .navbar-container {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .newmedia-container {
@@ -84,6 +84,11 @@
 
 .search-container {
     display: none;
+}
+
+.menubar-mobile{
+    width: 28px;
+    height: 28px;
 }
 
 }

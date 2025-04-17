@@ -122,3 +122,13 @@
     gap: 8px;
     flex-direction: column;
 }
+
+@media screen and (max-width: 400px) {
+    .explore-box{
+        margin: 0 20px;
+    }
+
+    .newsletter-box{
+        margin: 0 20px;
+    }
+}

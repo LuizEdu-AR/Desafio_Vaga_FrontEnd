@@ -38,5 +38,6 @@ p {
 @media screen and (max-width: 400px) {
     .main-container {
         padding: 0 20px;
+        align-items: start;
     }
 }

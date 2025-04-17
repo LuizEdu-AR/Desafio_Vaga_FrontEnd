@@ -1,7 +1,7 @@
 .homecinema {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 12px;
     padding-top: 22px;
 }
