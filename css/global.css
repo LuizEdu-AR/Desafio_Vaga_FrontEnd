@@ -1,0 +1,15 @@
+@import "reset.css";
+
+@import "footer/footer.css";
+
+@import "homepage/home.css";
+
+@import "mainpage/aside.css";
+@import "mainpage/main.css";
+
+@import "navbar/navbar.css";
+
+@import "otherscss/other.css";
+@import "sidebars/display.css";
+
+@import "sidebars/mode.css";

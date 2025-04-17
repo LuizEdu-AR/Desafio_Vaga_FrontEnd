@@ -1,0 +1,125 @@
+.homecinema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 22px;
+}
+
+.homecinema p {
+    font-size: 22px;
+}
+
+.curiosity-container {
+    margin-top: 45px;
+    border-left: 4px solid #E51D35;
+    padding-left: 3px;
+}
+
+.curiosity-container p {
+    font-size: 12px;
+}
+
+.tittle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 17px;
+    padding: 0 102px;
+    gap: 8px;
+}
+
+.tittle-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.tittle-container p {
+    font-size: 18px;
+    color: #575757;
+}
+
+.author-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 18px 11px 0;
+}
+
+.author-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+    border-left: 1px solid #DDD;
+    padding: 11px 0 11px 18px;
+    color: #575757;
+}
+
+.imagemain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.imagemain-container img {
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .tittle-container {
+        padding: 0;
+    }
+
+    .tittle-container h1 {
+        text-align: start;
+        font-size: 26px;
+    }
+
+    .tittle-container p {
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .curiosity-container {
+        margin-top: 27px;
+    }
+
+    .author {
+        display: none;
+    }
+
+    .author-date {
+        padding: 0;
+        border: none;
+    }
+
+    .author-date p {
+        color: #5C5C5C;
+        font-size: 12px;
+    }
+
+    .imagemain {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagemain-container p {
+        text-align: start;
+        font-size: 12px;
+        color: #5C5C5C;
+    }
+}

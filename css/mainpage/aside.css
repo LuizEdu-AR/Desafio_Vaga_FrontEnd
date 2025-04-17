@@ -1,0 +1,124 @@
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-box {
+    background-color: #fdfdfd;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #E0E0E0;
+    text-align: left;
+}
+
+.explore-box h2 {
+    font-size: 48px;
+    color: #e51d35;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags span {
+    display: inline-block;
+    border: 2px solid #e51d35;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+    color: #1C1C1C;
+    font-weight: bold;
+    background-color: white;
+}
+
+.newsletter-box {
+    background-color: #E51D35;
+    border-radius: 6px;
+    padding: 20px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    color: #fff;
+}
+
+.newsletter h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+}
+
+.newsletter p {
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+.formnews-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    text-align: left;
+}
+
+.newsletter-form button {
+    padding: 12px;
+    background-color: #E51D35;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.advertising-box {
+    padding: 56px 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+}

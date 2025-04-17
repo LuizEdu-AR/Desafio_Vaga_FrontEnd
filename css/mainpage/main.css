@@ -1,0 +1,361 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 34px;
+    gap: 30px;
+}
+
+.text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-content-p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.read-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 10px 22px 20px 22px;
+}
+
+.read-container h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.read-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 30px;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.read-p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.textimage-container {
+    display: flex;
+    gap: 34px;
+}
+
+
+.image-box-img {
+    max-width: 376px;
+    max-height: 250px;
+}
+
+.image-box-p {
+    text-align: start;
+    font-size: 14px;
+}
+
+.quote-box {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 3rem;
+    z-index: 0;
+}
+
+.quote-box blockquote {
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.quote-box blockquote::before {
+    content: "“";
+    font-size: 10rem;
+    position: absolute;
+    left: -3rem;
+    top: -4rem;
+    font-family: serif;
+    line-height: 1;
+    z-index: 0;
+
+    background: linear-gradient(to bottom right, red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.quote-box p {
+    font-size: 28px;
+    text-align: start;
+}
+
+.quote-box cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #575757;
+    text-align: start;
+}
+
+
+
+.red-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    border: 1px solid #E51D35;
+    border-radius: 6px;
+}
+
+.continue-p {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.radio-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 22px;
+    flex-direction: column;
+    border: 1px solid #E51D35;
+    border-radius: 6px;
+    max-width: 480px;
+}
+
+.radio-p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: start;
+    color: #E51D35;
+    margin-bottom: 25px;
+}
+
+.radio-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 27px;
+    font-size: 16px;
+    margin-bottom: 42px;
+}
+
+.radio {
+    display: flex;
+    gap: 18px;
+    transition: 0.7;
+}
+
+.radio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #E51D35;
+    border-radius: 6px;
+    width: 100%;
+    padding: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0;
+}
+
+.radio-button:hover {
+    background-color: #E51D35;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.tags-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    padding: 34px 0;
+}
+
+.tags-p {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cinema-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.cinematext-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinema-p {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 16px;
+}
+
+.cinema-icon {
+    max-width: 24px;
+    max-height: 28px;
+}
+
+.cinema-pp {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 8px;
+}
+
+.cinemacard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.cinemacard {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 246px;
+    height: 302px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.cinemacard.tlou {
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 1) 100%), url(../../assets/img/foto\ 30.png);
+}
+
+.cinemacard.max {
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 1) 100%), url(../../assets/img/foto\ 31.png);
+}
+
+.cinemacard.mando {
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 1) 100%), url(../../assets/img/foto\ 29.png);
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    opacity: 1;
+    color: white;
+    background: rgba(29, 28, 29, 0.4);
+    border-radius: 23px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.emoji-container img {
+    opacity: 1;
+}
+
+.textcard-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 8px;
+}
+
+.tittlecard {
+    color: #fff;
+    font-size: 12px;
+    border-left: 4px solid #E51D35;
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+.textcard {
+    color: #fff;
+    text-align: start;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+    .text-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .text-content{
+        margin: 0 20px;
+    }
+
+    .read-box {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .textimage-container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .text-content-p {
+        font-size: 18px;
+    }
+
+    .cinemacard-container {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 10px;
+    }
+
+    .cinemacard {
+        width: 100%;
+    }
+
+    .continue-p {
+        font-size: 24px;
+    }
+
+    .read-container {
+        padding: 12px 16px 16px 16px;
+    }
+}

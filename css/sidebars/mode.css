@@ -1,0 +1,21 @@
+.mode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    top: 480px;
+    right: 40px;
+    position: fixed;
+}
+
+.mode-container img {
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .mode-container {
+        display: none;
+    }
+}
